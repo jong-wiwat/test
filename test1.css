@@ -1,0 +1,78 @@
+
+@charset "utf-8";
+
+body {
+    font-size: 18px;
+    text-align: center;
+font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'  
+    
+}
+img{
+    width: 65%;
+    height: 400px;
+    background-image: url(img3233835_m_ac.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 80px;
+}
+/*==Reset CSS==*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*==Style cơ bản cho website==*/
+body {
+  font-family: sans-serif;
+  color: #333;
+}
+
+/*==Style cho menu===*/
+#menu ul {
+  background: #048998;
+  list-style-type: none;
+  text-align: center;
+}
+#menu li {
+  color: #f1f1f1;
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: -5px;
+}
+#menu a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+#menu a:hover {
+  background: #F1F1F1;
+  color: #333;
+}
+
+/*==Dropdown Menu==*/
+.sub-menu {
+  display: none;
+  position: absolute;
+    width: 150px;
+}
+#menu li {
+  position: relative;
+}
+#menu li:hover .sub-menu {
+  display: block;
+}
+.sub-menu li {
+  margin-left: 0 !important;
+}
+
+/*==Menu level 3==*/
+.sub-menu > ul {
+  display: none !mportant;
+}
+div img{
+    width: 30%;
+    height: 300px;
+    
+}
